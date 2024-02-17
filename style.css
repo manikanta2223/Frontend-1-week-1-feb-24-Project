@@ -1,0 +1,85 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.header{
+    width: 100%;
+    background-color: black;
+    color: rgb(252, 247, 247);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: fixed;
+    z-index: 2;
+}
+.navlinks li{
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+    justify-content: space-between;
+    padding: 10px;
+}
+.navlinks li a{
+    text-decoration: none;
+    color: white;
+}
+#books{
+    width: 60vw;
+    height: 600px;
+    margin: auto;
+    background-color: rgba(208, 218, 221, 0.601);
+    position: relative;
+    top: 80px;
+    padding:10px ;
+}
+table{
+    border: 1px dotted;
+    width: 100%;
+    height: 90%;
+    margin: auto;
+}
+#Register{
+    width: 60vw;
+    height: 600px;
+    margin: auto;
+    background-color: rgb(225, 227, 230);
+    margin-top:100px;
+    padding:20px;
+}
+.forms{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+}
+input[type=text]{
+    padding: 6px;
+}
+input[type=date]{
+    padding: 6px;
+}
+input[type=email]{
+    padding: 6px;
+}
+input[type=password]{
+    padding: 6px;
+}
+input[type=number]{
+    padding: 6px;
+}
+button{
+    margin-top: 10px;
+    background-color: black;
+    color: rgb(213, 198, 198);
+    padding: 10px;
+}
+button:hover{
+    background-color: rgb(42, 36, 36);
+    cursor: pointer;
+    color:rgb(255, 255, 255)
+}
